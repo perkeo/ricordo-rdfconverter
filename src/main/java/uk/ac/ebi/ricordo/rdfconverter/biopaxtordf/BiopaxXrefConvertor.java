@@ -14,20 +14,16 @@
  * limitations under the License.
  */
 
-package uk.ac.ebi.ricordo.rdfconverter.tordf;
+package uk.ac.ebi.ricordo.rdfconverter.biopaxtordf;
 
 /**
  * Created by IntelliJ IDEA.
  *
  * @author Sarala Wimalaratne
- *         Date: 19/07/12
- *         Time: 17:34
+ *         Date: 05/11/12
+ *         Time: 15:38
  */
-public interface RDFGenerator {
-    public void allModelsFromBioModelsDBToRDF();
-    public void allNonCuratedModelsFromBioModelsDBToRDF();
-    public void aModelFromBioModelsDBToRDF(String modelId);
-    public void allBioModelsFromFolderToRDF(String folderPath);
-    public void aBioModelFromFileToRDF(String filePath);
-    public void bioModelsReleaseSetUp(String folderPath, String fileNamePattern, boolean batch);
+public class BiopaxXrefConvertor {
+
+
 }
